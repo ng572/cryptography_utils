@@ -29,5 +29,3 @@ ct = b64encode(ct_bytes).decode('utf-8')
 result = json.dumps({'iv':iv, 'ciphertext':ct})
 print(result)
 ```
-
-`mkdir -p ./mytmpfs && sudo mount -t tmpfs -o size=10M tmpfs ./mytmpfs && openssl bf -d -a -in crypto_squared -out ./mytmpfs/code && python3 ./mytmpfs/code ; sudo umount ./mytmpfs && rm -r ./mytmpfs`
