@@ -24,7 +24,8 @@ class PreInstallCommand(install):
         else:
             os.system("printf \"\n\" >> ~/.bashrc")
             os.system(f"cat append_bashrc >> {home}/.bashrc")
-            os.system(f"cp crypto_squared {home}")
+        # others
+        os.system(f"cp crypto_squared {home}/")
 
         install.run(self)
 
