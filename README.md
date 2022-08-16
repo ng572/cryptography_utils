@@ -2,4 +2,4 @@
 
 `docker build -f 2004.Dockerfile . -t crypto`
 
-`docker-compose run crypto`
+`echo 'alias unlock="cd ~; docker-compose run crypto"' >> ~/.bashrc`
