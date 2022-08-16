@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  crypto:
+    image: crypto
+    privileged: true
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
