@@ -1,10 +1,10 @@
 # cryptography_utils
 
-`docker build -f 2004.Dockerfile . -t crypto`
+`docker build -f alpine311.Dockerfile . -t crypto`
 
 ## bash
 
-`echo 'alias unlock="cd ~; docker-compose run crypto"' >> ~/.bashrc`
+`echo 'alias unlock="docker run --privileged -it --rm crypto"' >> ~/.bashrc`
 
 ## powershell
 
