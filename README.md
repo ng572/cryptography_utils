@@ -1,6 +1,10 @@
 # cryptography_utils
 
-`docker build -f alpine311.Dockerfile . -t crypto`
+## canonical setup
+
+`docker build -f alpine311.Dockerfile . -t ng572/crypto`
+
+`docker run -it --rm --privileged ng572/crypto`
 
 ## bash
 
