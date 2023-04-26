@@ -4,11 +4,7 @@
 
 `docker build -f alpine311.Dockerfile . -t ng572/crypto`
 
-`docker run -it --rm --privileged ng572/crypto`
-
-## bash
-
-`echo 'alias unlock="docker run --privileged -it --rm crypto"' >> ~/.bashrc`
+`echo 'alias unlock="docker run --privileged -it --rm ng572/crypto"' >> ~/.bashrc`
 
 ## powershell
 
