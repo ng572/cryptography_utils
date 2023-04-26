@@ -6,10 +6,10 @@
 
 pick one of the followings depending on your OS
 
-### bash
+### 1. bash
 
 `echo 'alias unlock="docker run --privileged -it --rm ng572/crypto"' >> ~/.bashrc`
 
-### powershell
+### 2. powershell
 
-`Add-Content $Profile 'function unlock { docker run --privileged -it --rm crypto }'`
+`Add-Content $Profile 'function unlock { docker run --privileged -it --rm ng572/crypto }'`
