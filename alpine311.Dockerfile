@@ -1,6 +1,6 @@
 FROM python:3.8-alpine3.11
 RUN /usr/local/bin/python -m pip install --upgrade pip
-RUN apk add --update openssl
+RUN apk add --update openssl gcc libc-dev
 COPY ./setup /setup
 WORKDIR /setup
 RUN pip3 install .
